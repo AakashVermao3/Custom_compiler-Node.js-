@@ -1,0 +1,18 @@
+{
+  "name": "custom_compiler",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "-------------Steps for makeing custom JavaScript cOMPILER-------\r Step 1: Create a Project File Structure:\r       custom-compiler/\r         ├── backend/\r         │   ├── compiler.js\r         ├── frontend/\r         │   ├── index.html\r         │   ├── styles.css\r         │   ├── script.js\r         ├── server.js   \r         ├── package.json // this will create automaticaly ceated when you install the npm \r         └── README.md /// oftionall",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {}
+}

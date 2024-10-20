@@ -1,0 +1,25 @@
+-------------Steps for makeing custom JavaScript cOMPILER-------
+Step 1: Create a Project File Structure:
+      custom-compiler/
+        ├── backend/
+        │   ├── compiler.js
+        ├── frontend/
+        │   ├── index.html
+        │   ├── styles.css
+        │   ├── script.js
+        ├── server.js   
+        ├── package.json // this will create automaticaly ceated when you install the npm 
+        └── README.md /// oftionall
+
+Step 2: Install important dependencies:
+      => npm install express body-parser
+
+Step 3: Now cretion of the code:
+    =>  compiler.js
+    =>  index.html
+    =>  styles.css     
+
+Step 4: Run the code:
+      : make sure you wer in the same directory 
+        that of your project and then runn:
+       =>  node server.js
